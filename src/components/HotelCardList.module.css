@@ -1,0 +1,12 @@
+.hotelCardList {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding-bottom:0.5rem;
+
+  list-style: none;
+  color: #191e3b;
+}
+
+.hotelList {
+  margin: 1rem 2.5rem 0 2.5rem;
+}

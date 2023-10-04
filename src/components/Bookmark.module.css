@@ -1,0 +1,121 @@
+.bookmark {
+  width: 59%;
+  margin: 2.3rem 0 0 1rem;
+}
+
+.bookmarkContainer {
+  width: 100%;
+  margin-bottom: 1.2rem;
+
+  color: #191e3b;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.imgContainer {
+  width: 38%;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.infoContainer {
+  width: 49%;
+  padding-top: 0.5rem;
+}
+
+.nameInfo h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.nameInfo span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.travelerContainer {
+  margin-top: 7.5rem;
+}
+
+.travelerContainer span {
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.priceContainer {
+  padding-bottom: 0.5rem;
+}
+
+.priceContainer strong {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.delete {
+  width: 13%;
+  padding: 0 1rem 1rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+}
+
+.delete svg {
+  width: 5rem;
+}
+
+.delete span {
+  font-size: 1.6rem;
+}
+
+.delete:hover {
+  color: #ff0a0a;
+  cursor: pointer;
+}
+
+@media (max-width: 32em) {
+  .bookmark {
+  margin: 2.3rem auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .imgContainer {
+    width: 100%;
+  }
+
+  .infoContainer {
+    padding:0.5rem 0 0 1rem  ;
+    width: 100%;
+  }
+
+  .travelerContainer {
+    margin-top: 3rem;
+  }
+
+  .priceContainer {
+    padding-bottom: 0
+  }
+
+  .delete {
+    width: 100%;
+    align-items: end;
+  }
+}

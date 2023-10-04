@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+}
+
+.img {
+  height: 2.9rem;
+  width: clamp(11rem, 10vw, 30rem);
+}

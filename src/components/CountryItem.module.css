@@ -1,0 +1,23 @@
+.countryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+
+  font-size: 1.7rem;
+  font-weight: 600;
+
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 1rem 2rem;
+  border-left: 5px solid #598ad3;
+}
+
+.countryItem span:first-child {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.countryItem span:last-child{
+  font-size: clamp(1.4rem, 1.5vw, 1.7rem);
+}

@@ -1,0 +1,40 @@
+.btn {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  font-weight: 500;
+  background-color: #1668e3;
+  color: #ffff;
+}
+
+.primary:hover{
+  background-color: #0d4eaf;
+}
+
+.back {
+  font-weight: 600;
+  background: none;
+}
+
+.position {
+  position: absolute;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1000;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  bottom: 4.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #407edb;
+  color: #fff;
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
+

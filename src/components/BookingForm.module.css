@@ -1,0 +1,135 @@
+.form {
+  margin-top: 4rem;
+  margin-bottom: 4.2rem;
+  padding: 1rem 4rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.container {
+  width: 30%;
+  height: 4.9rem;
+  display: flex;
+
+  position: relative;
+
+  background-color: #ffff;
+  color: #3e425b;
+  outline: none;
+  border: 1px solid #a7a8ab;
+  border-radius: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.form svg {
+  height: 2.7rem;
+  fill: #191e3b;
+  min-inline-size: 1.5rem;
+  transform: translateY(40%);
+  margin-left: 1.3rem;
+}
+
+.flexAlignItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding-top: 0.7rem;
+  margin-left: 0.8rem;
+}
+
+.flexAlignItems:last-child {
+  color: #3e425b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.label {
+  font-size: 1.2rem;
+  line-height: 1rem;
+  color: #878996;
+  font-weight: 500;
+}
+
+.countryList {
+  width: 100%;
+
+  position: absolute;
+  top: 110%;
+  background-color: #ffff;
+  border-radius: 0.7rem;
+  z-index: 1;
+}
+
+.countryList ul {
+  list-style: none;
+  text-align: center;
+  padding: 0.8rem 0;
+}
+
+.countryList li {
+  font-size: 1.6rem;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #191e3b;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.countryList li:hover {
+  background-color: #f9f9fc;
+}
+
+.travelerList {
+  width: 100%;
+
+  position: absolute;
+  top: 110%;
+
+  border: 1px solid #c3c4c8;
+  background-color: #ffff;
+  border-radius: 0.7rem;
+}
+
+.travelerList ul {
+  list-style: none;
+  padding: 0.8rem 0;
+  text-align: center;
+}
+
+.travelerList li {
+  font-size: 1.6rem;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #191e3b;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.travelerList li:hover {
+  background-color: #f9f9fc;
+}
+
+@media (max-width: 41em) {
+  .form {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .form .container {
+    width: 90%;
+  }
+
+  .marginRight {
+    margin-right: 0.1rem;
+  }
+}

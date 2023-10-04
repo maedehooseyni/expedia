@@ -1,0 +1,44 @@
+.user {
+  position: absolute;
+  top: 4.2rem;
+  right: 4.2rem;
+
+  background-color: var(--color-dark--1);
+  color: var(--color-light--1);
+  padding: 0.5em;
+  border-radius: 7px;
+  z-index: 999;
+  box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  font-weight: 600;
+  position: fixed;
+ 
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem; 
+}
+
+.user img {
+  border-radius: 100px;
+  height: 3.5rem;
+}
+
+.user button {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  border: none;
+  padding: 0.5em;
+  color: inherit;
+  font-family: inherit;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 46em) {
+  .user{
+    display: none;
+  }
+}

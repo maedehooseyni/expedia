@@ -1,0 +1,43 @@
+.login {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.login h1 {
+  margin: 7.5rem 0 2.8rem 0;
+  color: #191e3b;
+  font-size: 3.5rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.form {
+  max-width: clamp(39rem, 40%, 40%);
+  min-width: 29rem;
+
+  margin: 1.3rem auto;
+  padding: 2rem 2.7rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  border-radius: 7px;
+}
+
+.form label {
+  font-size: 1.3rem;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.form input {
+  pointer-events: none;
+  width: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
