@@ -22,7 +22,7 @@ export default function Homepage() {
         </Link>
 
         <div className={styles.imgContainer}>
-          <img className={styles.img} src="../public/images.jpg" alt="image" />
+          <img className={styles.img} src="/images.jpg" alt="image" />
         </div>
       </section>
     </main>
