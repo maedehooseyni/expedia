@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useEffect, useContext, useReducer } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://recipe-api-iyso.onrender.com";
 
 const CitiesContext = createContext();
 

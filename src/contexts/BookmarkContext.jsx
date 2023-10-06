@@ -2,7 +2,7 @@
 import { createContext, useContext, useReducer, useEffect } from "react";
 
 const BookmarkContext = createContext();
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://recipe-api-iyso.onrender.com";
 
 const initialState = {
   bookmarks: [],
