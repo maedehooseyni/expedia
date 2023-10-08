@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.5rem;
   text-decoration: none;
 }
 
@@ -107,7 +107,7 @@
 
 .svgContainer {
   position: absolute;
-  
+
   padding: 0.8rem 0.7rem 0.2rem 0.7rem;
   background-color: #fff;
   border-radius: 50%;

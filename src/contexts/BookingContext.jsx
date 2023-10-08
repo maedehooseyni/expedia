@@ -7,7 +7,9 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = "https://recipe-api-iyso.onrender.com";
+// const BASE_URL = "https://recipe-api-iyso.onrender.com";
+const BASE_URL = "http://localhost:9000";
+
 
 const BookingContext = createContext();
 

@@ -1,14 +1,14 @@
 .bookmark {
   width: 59%;
-  margin: 2.3rem 0 0 1rem;
+  margin: 2.3rem 0 0 1.5rem;
 }
 
 .bookmarkContainer {
   width: 100%;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   color: #191e3b;
-  background-color: #ffffff;
   border-radius: 3rem;
   overflow: hidden;
 }
@@ -87,10 +87,6 @@
 }
 
 @media (max-width: 32em) {
-  .bookmark {
-  margin: 2.3rem auto;
-  }
-
   .container {
     display: flex;
     flex-direction: column;
@@ -102,7 +98,7 @@
   }
 
   .infoContainer {
-    padding:0.5rem 0 0 1rem  ;
+    padding: 0.5rem 0 0 1rem;
     width: 100%;
   }
 
@@ -111,7 +107,7 @@
   }
 
   .priceContainer {
-    padding-bottom: 0
+    padding-bottom: 0;
   }
 
   .delete {

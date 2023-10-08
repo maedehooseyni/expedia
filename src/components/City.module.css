@@ -53,3 +53,9 @@
 .city::-webkit-scrollbar {
   width: 0;
 }
+
+@media (max-width: 46em) {
+  .city{
+    width: 60%; 
+  }
+}

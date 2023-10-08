@@ -1,5 +1,18 @@
 {
-  "cities": [],
+  "cities": [
+    {
+      "cityName": "Anew",
+      "country": "Turkmenistan",
+      "position": {
+        "lat": "39.3524108664973",
+        "lng": "58.82458506026239"
+      },
+      "date": "2023-10-08T20:00:15.668Z",
+      "notes": "",
+      "emoji": "🇹🇲",
+      "id": 1
+    }
+  ],
   "cards": [
     {
       "hotelName": "St.James' Court, A Tag Hotel",
@@ -67,5 +80,19 @@
       "rating": "Wonderful"
     }
   ],
-  "bookmarks": []
+  "bookmarks": [
+    {
+      "hotelName": "St.James' Court, A Tag Hotel",
+      "cityName": "England",
+      "hotel ranking": "Wonderful",
+      "reviews": "1,007 reviews",
+      "price": 296,
+      "off": 20,
+      "traveler": "2 travelers",
+      "image": "St.James' Court, A Tag Hotel, Londen.jpg",
+      "id": 63356091,
+      "score": "8.9",
+      "rating": "Excellent"
+    }
+  ]
 }
