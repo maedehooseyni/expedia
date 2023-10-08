@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useReducer, useEffect } from "react";
 
+const BASE_URL = "https://recipe-api-iyso.onrender.com";
+
 const BookmarkContext = createContext();
-const BASE_URL = "http://localhost:9000";
 
 const initialState = {
   bookmarks: [],
